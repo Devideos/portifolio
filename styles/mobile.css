@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 998px) {
 
     header {
         padding: 8%;
