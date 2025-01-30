@@ -113,7 +113,7 @@ p {
 .rodape {
     color: var(--cor-primaria);
     background-color: #d400ffcc;
-    padding: 8px;
+    padding: 5px;
     text-align: center;
     font-size: 24px;
     font-weight: 400;

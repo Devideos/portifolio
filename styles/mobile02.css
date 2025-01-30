@@ -1,0 +1,85 @@
+
+/* Media Queries para dispositivos móveis */
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .apresentacao {
+        padding: 5% 5%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .minhasFotos {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .minhasFotos__Imagem {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* Media Queries para tablet */
+@media screen and (max-width: 1024px) {
+    .menu {
+        gap: 40px;
+    }
+
+    .apresentacao {
+        padding: 5% 10%;
+    }
+
+    .apresentacao__conteudo {
+        width: 90%;
+    }
+
+    .minhasFotos__Imagem {
+        width: 280px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+/* Media Queries para telas grandes (notebooks e desktops) */
+@media screen and (min-width: 1200px) {
+    .apresentacao__conteudo {
+        width: 700px;
+    }
+
+    .minhasFotos__Imagem {
+        width: 320px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+}
