@@ -1,16 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Media Queries para dispositivos móveis */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 5% 5%;
+    }
+
     .menu {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         gap: 20px;
-        margin-right: 15%;
+        
     }
 
     .apresentacao {
-        padding: 5% 5%;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -27,7 +35,6 @@
     .minhasFotos {
         flex-direction: row;
         justify-content: center;
-        gap: 10px;
     }
 
     .minhasFotos__Imagem {
@@ -45,6 +52,7 @@
     .rodape {
         padding: 5px;
     }
+    
 }
 
 /* Media Queries para tablet */
@@ -72,10 +80,11 @@
     p {
         font-size: 20px;
     }
+
 }
 
 /* Media Queries para telas grandes (notebooks e desktops) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     .apresentacao__conteudo {
         width: 700px;
     }
@@ -91,4 +100,5 @@
     p {
         font-size: 26px;
     }
+    
 }
