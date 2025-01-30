@@ -14,6 +14,10 @@
         align-items: center;
     }
 
+    img {
+        margin: 15%;
+    }
+
     .apresentacao__conteudo {
         width: 100%;
         text-align: center;
@@ -35,6 +39,10 @@
 
     p {
         font-size: 18px;
+    }
+
+    .rodape {
+        padding: 5px;
     }
 }
 
