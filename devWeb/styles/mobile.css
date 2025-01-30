@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 1440px) {
+
+    header {
+        padding: 8%;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    img {
+        margin-bottom: 5%;
+        width: 100%;
+    }
+}
+
+
