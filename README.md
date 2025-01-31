@@ -35,6 +35,11 @@
 ├── README.md
 </pre>
 
+<h2>🔗 Acesse o site</h2>
+<p>Clique no link abaixo para visualizar o projeto ao vivo:</p>
+<a href="https://devideos.github.io/portifolio/" target="_blank"><strong>🔗 Acesse aqui</strong></a>
+
+
 <h2>📬 Contato</h2>
 <p>Entre em contato comigo para colaborações ou oportunidades:</p>
 <ul>
