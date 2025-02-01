@@ -33,13 +33,22 @@
     .menu a {
         font-size: 15px;
         line-height: 1.4;
+        text-decoration: none;
+        color: var(--cor-terciaria);
+        border: 2px dashed #ee9bff79;
+        border-radius: 10px;
+        padding: 2%;
     }
 
     .apresentacao {
         flex-direction: column-reverse;
     }
+
+    .apresentacao__links__link {
+        font-size: 16px;
+    }
     
-    p, h1, h2 {
+    p, h1 {
         font-size: 14px;
         line-height: 1.4;
       }
