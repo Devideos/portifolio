@@ -4,7 +4,7 @@
 @media (max-width: 2000px) {
     .apresentacao .minhasFotos__Imagem {
         margin-right: 5%;
-        max-width: 380px;
+        width: 380px;
     }
     
 }
