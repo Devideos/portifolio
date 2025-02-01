@@ -34,6 +34,11 @@
         flex-direction: column-reverse;
     }
     
+    p, h1, h2 {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
     .apresentacao img {
         margin-right: 0;
         max-width: 300px;

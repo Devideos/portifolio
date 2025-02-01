@@ -47,6 +47,11 @@
         max-width: 90%;
     }
 
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
     .minhasFotos__Imagem {
         max-width: 100%;
         height: auto;
