@@ -30,6 +30,11 @@
         gap: 20px;
     }
 
+    .menu a {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
     }
@@ -41,6 +46,6 @@
 
     .apresentacao img {
         margin-right: 0;
-        max-width: 300px;
+        max-width: 250px;
     }
 }
