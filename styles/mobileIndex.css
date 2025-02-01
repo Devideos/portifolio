@@ -1,12 +1,21 @@
 /* Responsividade */
-@media (max-width: 1024px) {
-    .apresentacao {
-        flex-direction: column;
-        text-align: center;
+
+@media (max-width: 2000px) {
+    .apresentacao img {
+        margin-right: 12%;
+        max-width: 380px;
     }
     
-    .menu {
-        justify-content: center;
+}
+
+@media (max-width: 1390px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .apresentacao img {
+        margin-right: 0;
     }
 }
 
@@ -25,33 +34,7 @@
         flex-direction: column-reverse;
     }
     
-}
-
-@media (max-width: 1000px) {
-    .apresentacao {
-        flex-direction: column-reverse;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.75rem;
-    }
-    
-    p {
-        font-size: 1.25rem;
-    }
-
-    .apresentacao {
-        flex-direction: column-reverse;
-    }
-    
-    .apresentacao__links__link {
-        font-size: 18px;
-        padding: 15px 0px;
-    }
-
-    .rodape {
-        padding: 5px;
+    .apresentacao img {
+        margin-right: 0;
     }
 }
