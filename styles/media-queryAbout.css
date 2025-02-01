@@ -1,0 +1,55 @@
+
+/* Responsividade */
+
+@media (max-width: 2000px) {
+    .apresentacao .minhasFotos__Imagem {
+        margin-right: 5%;
+        max-width: 380px;
+    }
+    
+}
+
+@media (max-width: 1390px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .apresentacao .minhasFotos__Imagem {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-left: 0;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Espaçamento entre os links */
+    }
+
+    
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .apresentacao__conteudo {
+        max-width: 90%;
+    }
+
+    .minhasFotos__Imagem {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
