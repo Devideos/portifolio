@@ -36,7 +36,7 @@
     .menu a {
         font-size: 15px;
         line-height: 1.4;
-        border: 2px dashed #ee9bff79;
+        border: 2px solid #ee9bff49;
         border-radius: 10px;
         padding: 2%;
     }
