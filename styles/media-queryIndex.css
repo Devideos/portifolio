@@ -34,8 +34,7 @@
         font-size: 15px;
         line-height: 1.4;
         text-decoration: none;
-        color: var(--cor-terciaria);
-        border: 2px dashed #ee9bff79;
+        border: 2px dashed #ee9bff49;
         border-radius: 10px;
         padding: 2%;
     }
