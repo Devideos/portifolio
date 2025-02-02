@@ -1,3 +1,5 @@
+<h1 align="center">Site de Apresentação</h1>
+
 <p align="center">
     <strong>David Pereira</strong> | Estudante de Engenharia de Software
 </p>
@@ -10,6 +12,12 @@
     <li>HTML5</li>
     <li>CSS3</li>
 </ul>
+
+<h2>📸 Captura de Tela</h2>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1884278b-a9bc-453d-b385-7f20276c7051" width="800" alt="Prévia do projeto">
+</p>
 
 <h2>📱 Responsividade</h2>
 <p>O site é totalmente responsivo, adaptando-se a diferentes tamanhos de tela, incluindo:</p>
